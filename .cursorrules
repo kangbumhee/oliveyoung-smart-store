@@ -1,0 +1,47 @@
+# OliveYoung-SmartStore Full Automation Bot
+
+## Project Overview
+올리브영 크롤링 데이터 기반 네이버 스마트스토어 완전 자동화 시스템.
+마진율 기반 자동 판매가 계산, 올리브영 가격 변동 시 자동 반영,
+주문 발생 시 올리브영 자동구매→구매자 주소 직배송→운송장 자동등록.
+
+## Tech Stack
+- Python 3.11+, Streamlit (UI), SeleniumBase (uc=True 봇탐지 우회)
+- Playwright (올리브영 자동구매/결제), httpx (async HTTP)
+- APScheduler (cron 스케줄링), SQLAlchemy + SQLite
+- OpenAI GPT-4o-mini (카테고리/상세설명/옵션 AI)
+- Naver Commerce API (상품등록/수정/주문/송장)
+- bcrypt + pybase64 (네이버 API 인증)
+
+## Architecture Principles
+- 모든 외부 호출에 retry + exponential backoff
+- 금액 계산은 반드시 Decimal 사용
+- 환경변수(.env)로 모든 시크릿 관리
+- structlog JSON 포맷 로깅
+- SeleniumBase uc=True로 올리브영 크롤링 (봇탐지 우회)
+- Playwright persistent context로 올리브영 로그인 세션 유지
+- 네이버 API 토큰 3시간 만료 → 자동 갱신
+
+## Pricing Logic (매우 중요)
+- 판매가 = 올리브영가격 * (1 + 마진율) + 배송비보전(500원)
+- 스마트스토어 배송비 = 3,000원 (구매자 부담)
+- 올리브영 배송비 = 2,500원 (2만원 미만 시) → 차액 500원 이득
+- 올리브영 가격 변동 시 → 스마트스토어 판매가 자동 재계산
+
+## Crawling Strategy (올리브영 내부 API 활용)
+- 랭킹목록: driver.get() → DOM 파싱
+- 상세/가격: fetch → HTML 정규식 추출 (세션 내 JS fetch)
+- 리뷰통계: m.oliveyoung.co.kr/review/api/v2/reviews/{id}/stats
+- 옵션재고: /goods/api/v1/option?goodsNumber={id}
+- QnA수: /claim-front/api/v1/goods/getGoodsQnACount?goodsNo={id}
+- 반드시 driver.get()으로 세션 확보 후 fetch 호출 (429 방지)
+- fetch 간격 0.3~0.5초, 429시 15초 대기 후 재시도
+
+## File Organization Rules
+- config/ → 설정, 매핑테이블, 템플릿
+- core/ → DB, 스케줄러, 로거
+- scraper/ → 올리브영 크롤링 + 자동구매
+- naver/ → 커머스 API 래퍼
+- ai/ → GPT 기반 변환
+- automation/ → 파이프라인 오케스트레이션
+- ui/ → Streamlit 대시보드

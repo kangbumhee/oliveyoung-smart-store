@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  bot-ui:
+    build: .
+    container_name: oy-ss-bot-ui
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+    restart: unless-stopped
+    command: streamlit run ui/app.py --server.port=8501 --server.address=0.0.0.0
+
+  bot-daemon:
+    build: .
+    container_name: oy-ss-bot-daemon
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+    restart: unless-stopped
+    command: python main.py

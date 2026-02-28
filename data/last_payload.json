@@ -1,0 +1,81 @@
+{
+  "originProduct": {
+    "statusType": "SALE",
+    "saleType": "NEW",
+    "leafCategoryId": "50000803",
+    "name": "밤부베베 톡톡 세면타올 쿨그레이 1장",
+    "salePrice": 12100,
+    "stockQuantity": 99997,
+    "detailContent": "<div style=\"margin:20px 0;\"><img src=\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0024/B00000024543801ko.jpg?l=ko\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:10px 0;\" /></div><!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>밤부베베 톡톡 세면타올 쿨그레이 1장</title>\n    <style>\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: sans-serif;\n            background-color: #F7F7F7;\n            color: #333;\n            line-height: 1.6;\n        }\n\n        .container {\n            max-width: 100%;\n            margin: 0 auto;\n            padding: 20px;\n            box-sizing: border-box; /* Added to include padding in width */\n        }\n\n        h1, h2, h3 {\n            color: #FF6B35;\n            margin-bottom: 10px;\n        }\n\n        h1 {\n            font-size: 2em;\n        }\n\n        h2 {\n            font-size: 1.5em;\n        }\n\n        p {\n            margin-bottom: 15px;\n        }\n\n        ul {\n            list-style: disc;\n            padding-left: 20px;\n            margin-bottom: 15px;\n        }\n\n        li {\n            margin-bottom: 5px;\n        }\n\n        .section {\n            background-color: #fff;\n            padding: 20px;\n            margin-bottom: 20px;\n            border-radius: 5px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n        }\n\n        .highlight {\n            color: #004E89;\n            font-weight: bold;\n        }\n\n        .price {\n            font-size: 1.3em;\n            color: #FF6B35;\n            font-weight: bold;\n        }\n\n        .button {\n            background-color: #FF6B35;\n            color: white;\n            padding: 10px 20px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1em;\n            text-decoration: none;\n            display: inline-block;\n            margin-top: 15px;\n        }\n\n        .button:hover {\n            background-color: #004E89; /* 서브 색상으로 변경 */\n        }\n\n        /* 모바일 반응형 */\n        @media (max-width: 600px) {\n            .container {\n                padding: 10px;\n            }\n\n            h1 {\n                font-size: 1.8em;\n            }\n\n            h2 {\n                font-size: 1.3em;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\" style=\"max-width: 100%; margin: 0 auto; padding: 20px; box-sizing: border-box;\">\n        <h1 style=\"color: #FF6B35; margin-bottom: 10px; font-size: 2em;\">밤부베베 톡톡 세면타올 쿨그레이</h1>\n        <p style=\"margin-bottom: 15px;\">매일 사용하는 타올, 밤부베베로 더욱 부드럽게!</p>\n        <p class=\"price\" style=\"font-size: 1.3em; color: #FF6B35; font-weight: bold; margin-bottom: 15px;\">가격: 12,100원</p>\n        <a href=\"#\" class=\"button\" style=\"background-color: #FF6B35; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; text-decoration: none; display: inline-block; margin-top: 15px;\">지금 바로 구매하기</a>\n\n        <div class=\"section\" style=\"background-color: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\">\n            <h2 style=\"color: #FF6B35; margin-bottom: 10px; font-size: 1.5em;\">상품 소개</h2>\n            <p style=\"margin-bottom: 15px;\">밤부베베 톡톡 세면타올은 부드러운 밤부 소재로 만들어져 민감한 피부에도 안심하고 사용할 수 있습니다. 쿨그레이 색상은 은은하고 세련된 느낌을 더해줍니다.</p>\n        </div>\n\n        <div class=\"section\" style=\"background-color: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\">\n            <h2 style=\"color: #FF6B35; margin-bottom: 10px; font-size: 1.5em;\">주요 특징</h2>\n            <ul style=\"list-style: disc; padding-left: 20px; margin-bottom: 15px;\">\n                <li style=\"margin-bottom: 5px;\"><span class=\"highlight\" style=\"color: #004E89; font-weight: bold;\">부드러운 밤부 소재:</span> 민감한 피부에도 자극 없이 사용 가능</li>\n                <li style=\"margin-bottom: 5px;\"><span class=\"highlight\" style=\"color: #004E89; font-weight: bold;\">뛰어난 흡수력:</span> 톡톡 두드려도 빠르게 물기를 흡수</li>\n                <li style=\"margin-bottom: 5px;\"><span class=\"highlight\" style=\"color: #004E89; font-weight: bold;\">세련된 쿨그레이 색상:</span> 욕실 인테리어에 은은하게 어울림</li>\n                <li style=\"margin-bottom: 5px;\"><span class=\"highlight\" style=\"color: #004E89; font-weight: bold;\">항균 효과:</span> 위생적인 사용 가능</li>\n            </ul>\n        </div>\n\n        <div class=\"section\" style=\"background-color: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\">\n            <h2 style=\"color: #FF6B35; margin-bottom: 10px; font-size: 1.5em;\">사용 방법</h2>\n            <p style=\"margin-bottom: 15px;\">세안 후 물기를 톡톡 두드려 흡수시켜 주세요. 샤워 후 몸 전체에 사용하셔도 좋습니다.</p>\n        </div>\n\n        <div class=\"section\" style=\"background-color: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\">\n            <h2 style=\"color: #FF6B35; margin-bottom: 10px; font-size: 1.5em;\">주의사항</h2>\n            <ul style=\"list-style: disc; padding-left: 20px; margin-bottom: 15px;\">\n                <li style=\"margin-bottom: 5px;\">세탁 시에는 미지근한 물에 중성세제를 사용하여 손세탁 또는 세탁망에 넣어 돌려주세요.</li>\n                <li style=\"margin-bottom: 5px;\">건조기 사용은 피해주세요.</li>\n                <li style=\"margin-bottom: 5px;\">삶거나 표백제 사용은 삼가주세요.</li>\n            </ul>\n        </div>\n        <a href=\"#\" class=\"button\" style=\"background-color: #FF6B35; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; text-decoration: none; display: inline-block; margin-top: 15px;\">지금 바로 구매하기</a>\n    </div>\n</body>\n</html>\n<div style=\"max-width:100%;margin:40px auto 0;padding:20px;background-color:#f9f9f9;border:1px solid #ddd;border-radius:8px;font-size:13px;color:#666;line-height:1.8;\">\n  <h3 style=\"color:#333;font-size:15px;margin-bottom:10px;border-bottom:1px solid #ddd;padding-bottom:8px;\">📌 구매 안내</h3>\n  <p>• 본 상품은 <strong>올리브영 공식 온라인몰</strong>에서 구매하여 국내 배송해드리는 상품입니다.</p>\n  <p>• 올리브영에서 정식 유통되는 정품만 취급합니다.</p>\n  <p>• 주문 확인 후 올리브영에서 구매 → 고객님께 직접 배송되며, 배송기간은 영업일 기준 2~5일 소요됩니다.</p>\n  <p>• 이 제품은 구매대행을 통하여 유통되는 제품입니다.</p>\n  <p>• 이 제품은 전기용품 및 생활용품 안전관리법에 따른 안전관리대상 제품입니다.</p>\n  <h3 style=\"color:#333;font-size:15px;margin:15px 0 10px;border-bottom:1px solid #ddd;padding-bottom:8px;\">📦 배송 안내</h3>\n  <p>• 배송사: 한진택배</p>\n  <p>• 배송비: 3,000원 (제주/도서산간 추가 5,000원)</p>\n  <p>• 출고 후 1~2일 내 수령 가능 (주말/공휴일 제외)</p>\n  <h3 style=\"color:#333;font-size:15px;margin:15px 0 10px;border-bottom:1px solid #ddd;padding-bottom:8px;\">🔄 교환/반품 안내</h3>\n  <p>• 상품 수령 후 7일 이내 교환/반품 가능</p>\n  <p>• 단, 개봉 후 사용한 상품은 교환/반품이 불가합니다.</p>\n  <p>• 고객 변심에 의한 반품 시 왕복 배송비 6,000원이 발생합니다.</p>\n  <p>• 상품 하자/오배송의 경우 배송비는 판매자가 부담합니다.</p>\n</div>\n",
+    "images": {
+      "representativeImage": {
+        "url": "https://shop-phinf.pstatic.net/20260219_154/1771433824582FF9eT_JPEG/47051857074156061_1881813180.jpg"
+      },
+      "optionalImages": []
+    },
+    "deliveryInfo": {
+      "deliveryType": "DELIVERY",
+      "deliveryAttributeType": "NORMAL",
+      "deliveryCompany": "HANJIN",
+      "outboundShippingPlaceCode": 100797935,
+      "deliveryFee": {
+        "deliveryFeeType": "PAID",
+        "baseFee": 3000,
+        "deliveryFeePayType": "PREPAID",
+        "deliveryFeeByArea": {
+          "deliveryAreaType": "AREA_2",
+          "area2extraFee": 5000,
+          "area3extraFee": 5000
+        }
+      },
+      "claimDeliveryInfo": {
+        "returnDeliveryFee": 3500,
+        "exchangeDeliveryFee": 6000,
+        "shippingAddressId": 100797935,
+        "returnAddressId": 100797936
+      }
+    },
+    "detailAttribute": {
+      "afterServiceInfo": {
+        "afterServiceTelephoneNumber": "010-7253-0101",
+        "afterServiceGuideContent": "제품 특성상 개봉 후에는 교환,환불이 불가하오니 비닐을 제거하기 전 파손이나 심각한 문제가 있는 경우 바로 네이버 톡톡으로 문의 주셔야 교환 접수가 가능합니다."
+      },
+      "originAreaInfo": {
+        "originAreaCode": "03",
+        "content": "상세설명에 표시",
+        "importer": "상세페이지 참조"
+      },
+      "productInfoProvidedNotice": {
+        "productInfoProvidedNoticeType": "KITCHEN_UTENSILS",
+        "kitchenUtensils": {
+          "returnCostReason": "전자상거래등에서의소비자보호에관한법률 등에 의한 제품의 하자 또는 오배송 등으로 인한 청약철회의 경우에는 상품 수령 후 3개월 이내, 그 사실을 안 날 또는 알 수 있었던 날로부터 30일 이내에 청약철회를 할 수 있으며, 반품 배송비는 판매자가 부담합니다.",
+          "noRefundReason": "소비자의 책임 있는 사유로 상품 등이 멸실되거나 훼손된 경우, 소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우 청약철회가 제한될 수 있습니다.",
+          "qualityAssuranceStandard": "소비자분쟁해결기준(공정거래위원회 고시)에 따라 피해를 보상받을 수 있습니다.",
+          "compensationProcedure": "주문취소 및 반품 시 환불은 주문취소 및 반품 완료 후 영업일 기준 2~3일 이내 처리됩니다.",
+          "troubleShootingContents": "소비자 분쟁해결 기준(공정거래위원회 고시)에 의거 처리합니다.",
+          "itemName": "상세페이지 참조",
+          "modelName": "상세페이지 참조",
+          "material": "상세페이지 참조",
+          "component": "상세페이지 참조",
+          "size": "상세페이지 참조",
+          "releaseDateText": "상세페이지 참조",
+          "manufacturer": "밤부베베",
+          "producer": "상세페이지 참조",
+          "importDeclaration": false,
+          "warrantyPolicy": "소비자분쟁해결기준(공정거래위원회 고시)에 따름",
+          "afterServiceDirector": "010-0000-0000"
+        }
+      },
+      "certificationTargetExcludeContent": {
+        "childCertifiedProductExclusionYn": true,
+        "kcCertifiedProductExclusionYn": "TRUE",
+        "greenCertifiedProductExclusionYn": true
+      },
+      "minorPurchasable": true
+    }
+  },
+  "smartstoreChannelProduct": {
+    "naverShoppingRegistration": true,
+    "channelProductDisplayStatusType": "ON"
+  }
+}
