@@ -29,6 +29,7 @@ LOGS_DIR.mkdir(exist_ok=True)
 NAVER_CLIENT_ID: str = _get_config("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET: str = _get_config("NAVER_CLIENT_SECRET")
 NAVER_SELLER_ID: str = os.getenv("NAVER_SELLER_ID", "")
+SMARTSTORE_STORE_NAME: str = _get_config("SMARTSTORE_STORE_NAME")
 NAVER_API_BASE: str = "https://api.commerce.naver.com/external"
 
 # ── Google Gemini ──

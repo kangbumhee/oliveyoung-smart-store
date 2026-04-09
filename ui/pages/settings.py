@@ -46,6 +46,7 @@ def render():
         key_configs = [
             {"env_key": "NAVER_CLIENT_ID", "label": "네이버 커머스 - Client ID", "is_pw": False, "help": "커머스API센터에서 발급"},
             {"env_key": "NAVER_CLIENT_SECRET", "label": "네이버 커머스 - Client Secret", "is_pw": True, "help": "커머스API센터에서 발급"},
+            {"env_key": "SMARTSTORE_STORE_NAME", "label": "스마트스토어 스토어명", "is_pw": False, "help": "smartstore.naver.com/여기부분 (예: mumuriri)"},
             {"env_key": "GOOGLE_API_KEY", "label": "Google Gemini API Key", "is_pw": True, "help": "aistudio.google.com/apikey"},
             {"env_key": "OLIVEYOUNG_ID", "label": "올리브영 로그인 ID", "is_pw": False, "help": "올리브영 계정"},
             {"env_key": "OLIVEYOUNG_PW", "label": "올리브영 로그인 PW", "is_pw": True, "help": "올리브영 비밀번호"},

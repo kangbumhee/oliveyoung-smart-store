@@ -350,6 +350,8 @@ elif page == "📦 상품 관리":
     products = session.query(Product).order_by(Product.created_at.desc()).all()
 
     if products:
+        from core.secret_manager import get_secret
+        store_name = get_secret("SMARTSTORE_STORE_NAME")
         df = pd.DataFrame([{
             "ID": p.id,
             "상품명": p.name[:40],
@@ -361,8 +363,15 @@ elif page == "📦 상품 관리":
             "상태": p.status,
             "자동동기화": "✅" if p.auto_sync else "❌",
             "마지막동기화": p.last_synced_at.strftime("%m/%d %H:%M") if p.last_synced_at else "-",
+            "스토어보기": f"https://smartstore.naver.com/{store_name}/products/{p.naver_channel_product_no}" if p.naver_channel_product_no and store_name else "",
         } for p in products])
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(
+            df,
+            use_container_width=True,
+            column_config={
+                "스토어보기": st.column_config.LinkColumn("스토어보기", display_text="스토어보기"),
+            },
+        )
 
         col1, col2, col3 = st.columns(3)
         with col1:
